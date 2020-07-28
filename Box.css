@@ -1,0 +1,67 @@
+.blurry {
+    max-height: 95vh;
+    max-width: 100%;
+    background: url(themes/fEys5B.jpg);
+    background-repeat: no-repeat;
+}
+
+td, tr {
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+.box {
+    width: 75%;
+    height: 435px;
+    margin: 0 auto;
+    border-radius: 10px;
+    top: 50px;
+    left: 50px;
+    position: fixed;
+}
+
+.blurry thead {
+    position: sticky;
+    top: 0;
+}
+
+.box tr, .main-title {
+    color: white;
+}
+
+.box th {
+    color: rgb(114, 240, 167);
+}
+
+.cursor {
+    cursor: move;
+}
+
+.main-title {
+    font-size: 32px;
+    font-family: Palatino Linotype;
+    display: table;
+    margin: 0 auto;
+}
+
+.close-popup {
+    float: right;
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 10px;
+    top: 0;
+    right: 0;
+}
+
+.perspective-view {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+    border-radius: 0;
+    color: #fff;
+}
