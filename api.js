@@ -1,6 +1,14 @@
 const api = {
     "globals": {
-        "__SRC_ICON_PERSPECTIVE_VIEW": "https://img.icons8.com/nolan/64/perspective-view.png"
+        "__SRC_ICON_PERSPECTIVE_VIEW": "https://img.icons8.com/nolan/64/perspective-view.png",
+        "__CSV": {
+            "src": "127.0.0.1:8080/some-route/csv",
+            "display": true
+        },
+        "__PDF": {
+            "src": "127.0.0.1:8080/some-route/pdf",
+            "display": true
+        }
     },
     "header": {
         "fields": {
@@ -15,7 +23,7 @@ const api = {
             "EIN": {},
             "MD5": {}
         },
-        "title": `de Finibus Bonorum et Malorum`
+        "title": "de Finibus Bonorum et Malorum"
     },
     "body": {
         "dataset": [
@@ -320,9 +328,5 @@ const api = {
                 "md5": "ef9747e7b76cacfab093a4d81d20c83f"
             }
         ]
-    },
-    "footer": {
-        "pdf": true,
-        "csv": true
     }
 }
