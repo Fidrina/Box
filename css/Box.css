@@ -14,7 +14,7 @@ td, tr {
 
 .box {
     width: 75%;
-    height: 60%;
+    height: 435px;
     margin: 0 auto;
     border-radius: 10px;
     top: 50px;
@@ -29,6 +29,7 @@ td, tr {
 
 .box tr, .main-title {
     color: white;
+    white-space: nowrap;
 }
 
 .box th {

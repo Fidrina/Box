@@ -27,7 +27,7 @@
 
         <div class="cursor">
             <span class="main-title">
-                <div class="align-middle">de Finibus Bonorum et Malorum</div>
+                <div>de Finibus Bonorum et Malorum</div>
             </span>
             <div class="close-popup" onclick="BOX.close()">
                 <img src="icons/x.png">
@@ -188,12 +188,12 @@
         </div>
 
         <div>
-            <img onclick="(new Render(api)).art()" src="icons/art-document---v2.png" />
+            <img onclick="(new Render(api)).art()" src="icons/art-document---v2.png" title="Export Chart?" />
         </div>
 
         <div class="cursor perspective-view">
-            <a onclick="(new Render(api)).pdf()"> <img src="icons/export-pdf.png" /></a>
-            <a onclick="(new Render(api)).csv()"><img src="icons/import-csv.png" /></a>
+            <a onclick="(new Render(api)).pdf()"> <img src="icons/export-pdf.png" title="Export Pdf?" /></a>
+            <a onclick="(new Render(api)).csv()"><img src="icons/import-csv.png" title="Export Csv?" /></a>
             <img src="icons/perspective-view.png" />
         </div>
     </div>
